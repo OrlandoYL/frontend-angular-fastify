@@ -1,0 +1,6 @@
+[build]
+  command = "ng build --configuration production"
+  publish = "dist/frontend"
+
+[context.production.environment]
+  URL_BASE = "https://reto-tecnico-fastify-production.up.railway.app"
