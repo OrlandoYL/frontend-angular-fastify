@@ -1,6 +1,3 @@
-Aquí tienes el **README.md** completo en **Markdown** con todos los detalles necesarios:  
-
-```markdown
 # 📌 Proyecto Frontend Angular con Angular Material
 
 Este es un proyecto **frontend** desarrollado en **Angular 14**, que implementa un sistema de autenticación y listado de usuarios. Se usa **Angular Material** para la interfaz de usuario y **Reactive Forms** para las validaciones.
