@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  URL_BASE: process.env['URL_BASE_NG']  // Endpoint para desarrollo
+  URL_BASE: process.env['NG_APP_BASE_URL']  // Endpoint para desarrollo
+  //URL_BASE: 'https://reto-tecnico-fastify-production.up.railway.app'  // Endpoint para desarrollo
 };
 
 /*
