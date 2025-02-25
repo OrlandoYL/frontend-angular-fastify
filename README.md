@@ -48,7 +48,7 @@ Configura las variables de entorno en los archivos de **Angular**:
 ```ts
 export const environment = {
   production: false,
-  apiUrl: 'https://reto-tecnico-fastify-production.up.railway.app/api'
+  URL_BASE: 'https://reto-tecnico-fastify-production.up.railway.app/api'
 };
 ```
 
@@ -57,7 +57,7 @@ export const environment = {
 ```ts
 export const environment = {
   production: true,
-  apiUrl: 'https://reto-tecnico-fastify-production.up.railway.app/api'
+  URL_BASE: 'https://reto-tecnico-fastify-production.up.railway.app/api'
 };
 ```
 
@@ -65,7 +65,7 @@ También, si usas **Netlify**, debes configurarlo en **Site Settings**:
 
 1. Ir a **Build & deploy** > **Environment variables**.
 2. Agregar:
-   - **NG_APP_BASE_URL** = `https://reto-tecnico-fastify-production.up.railway.app/api`
+   - **URL_BASE** = `https://reto-tecnico-fastify-production.up.railway.app/api`
 
 ---
 
@@ -79,15 +79,6 @@ ng serve
 
 El frontend estará disponible en `http://localhost:4200/`.
 
----
-
-## 🛠️ Pruebas Unitarias
-
-Ejecuta las pruebas unitarias con **Jasmine y Karma**:
-
-```sh
-ng test
-```
 
 ---
 
@@ -120,7 +111,7 @@ ng build --configuration=production
 
 - Ir a **Site settings** > **Build & deploy** > **Environment variables**
 - Agregar:
-  - **NG_APP_BASE_URL** = `https://reto-tecnico-fastify-production.up.railway.app/api`
+  - **URL_BASE** = `https://reto-tecnico-fastify-production.up.railway.app/api`
 
 ### 4️⃣ Desplegar el proyecto
 
