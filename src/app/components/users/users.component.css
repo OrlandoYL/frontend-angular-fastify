@@ -1,0 +1,21 @@
+.user-list-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .filter-input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  table {
+    width: 100%;
+  }
+  
