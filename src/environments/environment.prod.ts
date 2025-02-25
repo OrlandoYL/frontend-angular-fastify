@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  URL_BASE: process.env['NG_APP_BASE_URL']
+  URL_BASE: 'https://reto-tecnico-fastify-production.up.railway.app'
 };
