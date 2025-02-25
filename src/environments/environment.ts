@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiUrlBase: 'https://reto-tecnico-fastify-production.up.railway.app'  // Endpoint para desarrollo
+  URL_BASE: process.env['URL_BASE_NG']  // Endpoint para desarrollo
 };
 
 /*

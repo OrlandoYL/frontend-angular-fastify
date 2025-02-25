@@ -9,7 +9,7 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class AuthService {
-  private apiUrl = environment.apiUrlBase + '/api/login'; // Usa la variable de entorno
+  private apiUrl = environment.URL_BASE + '/api/login'; // Usa la variable de entorno
   private tokenKey = 'authToken';
 
   constructor(private http: HttpClient) {}
